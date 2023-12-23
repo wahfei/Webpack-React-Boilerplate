@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+@layer components {
+    h1 {
+      @apply text-h1-fontsize;
+    }
+  
+    h2 {
+      @apply text-h2-fontsize;
+    }
+  
+    h3 {
+      @apply text-h3-fontsize;
+    }
+  
+    h4 {
+      @apply text-h4-fontsize;
+    }
+  
+    h5 {
+      @apply text-h5-fontsize;
+    }
+  
+    h6 {
+      @apply text-h1-fontsize;
+    }
+  }
+  

@@ -1,0 +1,19 @@
+{
+    "parser": "@babel/eslint-parser",
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "plugins": ["react"],
+    "rules": {
+        "quotes": [1, "single"],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error"
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "settings": {
+        "react": {
+          "version": "detect"
+        }
+    }
+}
